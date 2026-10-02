@@ -6,7 +6,7 @@ mySystem.m - this is called by the "DRIVER.m" and "colorgraphs.m" files during t
 
 mySystem2.m - this is called by the "DRIVER.m" and "colorgraphs.m" files during the system solving process; it iterates the tickMap function twice to find 2-cycle points.
 
-makeJacobian.m - this is called by the "DRIVER.m" and "colorgraphs.m" files during to assess local stability; it numerically finds the Jacobian of the tick-host system.
+makeJacobian.m - this is called by the "DRIVER.m" and "colorgraphs.m" files to assess local stability; it numerically finds the Jacobian of the tick-host system.
 
 plotter.m - this script produces Figures 2, 3, and 4 from our manuscript, depicting tick populations with respect to the demographic reproductive number and the questing behavior parameter c. This script should be run after running DRIVER.m
 
